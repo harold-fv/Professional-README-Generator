@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
-// npm i inquirer@8.2.4
+// to install the package, you need to type the command npm i inquirer@8.2.4
 
-const inquirer = require('inquirer');
+// const inquirer = require('inquirer');
 
 // TODO: Create an array of questions for user input
 
@@ -71,8 +71,26 @@ function writeToFile(fileName, data) {
 
 
 // TODO: Create a function to initialize app
-function init() {}
 
+const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
+const writeToFile = require('./utils/writeToFile');
+
+function init() {
+  // Prompt the user for input using inquirer
+  inquirer
+    .prompt(questions)
+    .then(data => {
+      // Generate the README markdown using the user input data
+      const markdown = generateMarkdown(data);
+
+      // Write the README markdown to a file
+      writeToFile('README.md', markdown);
+    })
+    .catch(err => {
+      console.log(err);
+    });
+}
 
 
 // Function call to initialize app
