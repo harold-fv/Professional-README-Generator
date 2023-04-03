@@ -74,7 +74,6 @@ function writeToFile(fileName, data) {
 
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
-const writeToFile = require('./utils/writeToFile');
 
 function init() {
   // Prompt the user for input using inquirer
