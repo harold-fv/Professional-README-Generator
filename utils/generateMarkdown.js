@@ -18,7 +18,21 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 
+function renderLicenseLink(license) {
+    if (license === 'MIT') {
+      return 'https://opensource.org/licenses/MIT';
+    } else if (license === 'Apache 2.0') {
+      return 'https://opensource.org/licenses/Apache-2.0';
+    } else if (license === 'GNU GPLv3') {
+      return 'https://www.gnu.org/licenses/gpl-3.0';
+    } else if (license === 'Unlicense') {
+      return 'http://unlicense.org/';
+    } else {
+      return '';
+    }
+  }
 
+  
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
