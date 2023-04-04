@@ -97,15 +97,14 @@ After the user answers all the questions, the information received by the system
 
 A README.md file will be generated inside the Generated-README-File Directory.
 
-![image](https://user-images.githubusercontent.com/120603153/229679499-944b9950-78b3-435d-a48a-db15dcc56adf.png)
+![image](https://user-images.githubusercontent.com/120603153/229684021-4eaccfc6-bb32-4a62-bfee-507cedac7695.png)
 
-All the informations received on the questionaires will automatically saves on README.md file.
+All the informations received on the questionaires will automatically save on README.md file.
 
 
-![image](https://user-images.githubusercontent.com/120603153/229679792-de17a9ba-de97-452d-b067-3edab4642d28.png)
+![image](https://user-images.githubusercontent.com/120603153/229684193-288a13fb-4a0f-4dca-818a-52c21b45d5b8.png)
 
-![image](https://user-images.githubusercontent.com/120603153/229679847-caeb02ee-118f-4dd3-9c82-9a0714759be3.png)
-
+![image](https://user-images.githubusercontent.com/120603153/229684330-f7d5e037-44a1-40bd-bc13-14362416da34.png)
 When the user clicks on the links in the Table of Contents
 the user will be taken to the corresponding section of the README.
 
