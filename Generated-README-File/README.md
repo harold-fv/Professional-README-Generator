@@ -1,10 +1,10 @@
 
-  # Professional-README-Generator
+  # t
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
-  This project is a command line interface (CLI) application that creates a more structured professional README file based on the user inputs.
+  t
   
   ## Table of Contents
   - [Installation](#installation)
@@ -15,10 +15,10 @@
   - [Questions](#questions)
   
   ## Installation
-  To install and use the Professional README Generator application, please follow these steps:
+  t
   
   ## Usage
-  1.You can clone this repository to your local machine using Git:
+  t
   
   
   ## License
@@ -26,11 +26,11 @@
   
   
   ## Contributing
-  
+  t
   
   ## Tests
-  
+  t
   
   ## Questions
-  For any questions, please contact undefined at haroldgonzales@yahoo.com. Visit harold-fv to view more of their work.
+  For any questions, please contact undefined at t. Visit t to view more of their work.
   

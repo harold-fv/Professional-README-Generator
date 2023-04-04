@@ -79,18 +79,12 @@ function init() {
   // Prompt the user for input using inquirer
   inquirer
     .prompt(questions)
-    .then(data => {
-      // Generate the README markdown using the user input data
-      const markdown = generateMarkdown(data);
-
-      // Write the README markdown to a file
-      writeToFile('README.md', markdown);
-    })
-    .catch(err => {
-      console.log(err);
-    });
+    .then((data) => {
+      console.log(data)
+  fs.writeFile('Generated-README-File/README.md', generateMarkdown(data),(err) => err? console.error(err) : console.log("Success!"))})
 }
 
-
-// Function call to initialize app
 init();
+
+
+
