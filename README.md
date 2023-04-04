@@ -106,6 +106,15 @@ All the informations received on the questionaires will automatically saves on R
 
 ![image](https://user-images.githubusercontent.com/120603153/229679847-caeb02ee-118f-4dd3-9c82-9a0714759be3.png)
 
+When the user clicks on the links in the Table of Contents
+the user will be taken to the corresponding section of the README.
+
+![image](https://user-images.githubusercontent.com/120603153/229683667-27822aa5-e20a-483b-87c4-54c748e6b0b2.png)
+
+
+
+
+
 # Walkthrough Video
 "https://github.com/harold-fv/Professional-README-Generator/blob/main/Video-README-Generator.gif"
 
