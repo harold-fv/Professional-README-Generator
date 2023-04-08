@@ -1,9 +1,7 @@
-// TODO: Include packages needed for this application
-// to install the package, you need to type the command npm i inquirer@8.2.4
 
-// const inquirer = require('inquirer');
+const inquirer = require('inquirer');
 
-// TODO: Create an array of questions for user input
+// Created an array of questions for user input
 
 const questions = [
     {
@@ -54,7 +52,7 @@ const questions = [
     },
   ];
 
-// TODO: Create a function to write README file
+//Created a function to write README file
 
 const fs = require('fs');
 
@@ -70,7 +68,7 @@ function writeToFile(fileName, data) {
 
 
 
-// TODO: Create a function to initialize app
+//Created a function to initialize app
 
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
