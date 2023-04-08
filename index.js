@@ -1,6 +1,4 @@
 
-const inquirer = require('inquirer');
-
 // Created an array of questions for user input
 
 const questions = [
